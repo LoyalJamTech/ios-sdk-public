@@ -86,39 +86,6 @@ let loyalJam = LoyalJamOfferWall.Builder()
 loyalJam.open(from: self)
 ```
 
-### Parameter Description
-
-
-## Example
-
-```swift
-import UIKit
-import LoyalJamOfferWallSDK
-
-class ViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let loyalJam = LoyalJamOfferWall.Builder()
-            .setAppKey("162bacc0167830d5")
-            .setAppZoneId("f9c10cbdf958")
-            .setUserId("ios337")
-            .setIdfa("idfa123")
-            .setAge(30)
-            .setGender(Gender.male)
-            .setSource("exampleSource")
-            .setSub1("sub111")
-            .setSub2("sub222")
-            .setSub3("sub333")
-            .setSub4("sub444")
-            .setSub5("sub555")
-            .build()
-
-        loyalJam.open(from: self)
-    }
-}
-```
-
 ## Privacy Requirements
 
 ### iOS 14+ Considerations
